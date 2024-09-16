@@ -1,0 +1,11 @@
+/* Override default style untuk .nav-link.active */
+.nav-link.active {
+  background-color: transparent !important; /* Hilangkan background */
+  border: none !important; /* Hilangkan border */
+  color: #007bff !important; /* Pastikan warna teks tetap hitam atau sesuai */
+}
+
+/* Tambahkan hover effect jika diinginkan */
+.nav-link:hover {
+  color: #0056b3; /* Warna saat di-hover */
+}
